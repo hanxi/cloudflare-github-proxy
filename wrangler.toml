@@ -1,0 +1,19 @@
+name = "cloudflare-github-proxy"
+compatibility_date = "2024-12-13"
+
+[dev]
+ip = "0.0.0.0"
+port = 8787
+local_protocol = "http"
+
+[env.vars]
+CUSTOM_DOMAIN = "github.hanxi.cc"
+
+[env.dev.vars]
+MODE = "debug"
+
+[env.production]
+name = "cloudflare-github-proxy"
+
+[env.production.vars]
+MODE = "production"
