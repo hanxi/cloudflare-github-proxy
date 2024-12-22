@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 // 配置可以设置不同的目标URL
 const PROXY_CONFIG = {
   '/proxy/': 'https://github.com/',
-  '/sentry/': 'https://o4508470196371456.ingest.us.sentry.io/',
+  //'/sentry/': 'https://o4508470196371456.ingest.us.sentry.io/',
 }
 
 async function handleRequest(request) {
